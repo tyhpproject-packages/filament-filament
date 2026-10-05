@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/filament-filament",
+    "description": "Tyhp type definitions for filament/filament 5.8.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "5.8.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/filament-filament-impl": "~5.8.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/filament-filament-impl"
+        }
+    }
+}
